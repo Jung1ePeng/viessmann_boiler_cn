@@ -1,0 +1,35 @@
+{
+    "config": {
+        "title": "燃气锅炉温度",
+        "step": {
+            "user": {
+                "title": "设置燃气锅炉温度传感器",
+                "description": "配置燃气锅炉温度传感器的参数。",
+                "data": {
+                    "name": "传感器名称"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "调整传感器选项",
+                "description": "配置传感器的其他选项。",
+                "data": {
+                    "update_interval": "更新间隔（秒）"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "gas_boiler_temperature": {
+                "name": "燃气锅炉温度",
+                "state": {
+                    "temperature": "温度"
+                }
+            }
+        }
+    }
+}

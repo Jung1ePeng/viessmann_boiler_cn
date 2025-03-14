@@ -1,0 +1,7 @@
+{
+    "domain": "Viessmann Boiler",
+    "name": "Viessmann Boiler",
+    "version": "1.0.0",
+    "requirements": [],
+    "codeowners": ["@Jung1ePeng"]
+}
